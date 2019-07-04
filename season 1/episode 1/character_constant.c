@@ -2,13 +2,13 @@
 
 //For Details explaination of the code please watch the video first and then execute the examples
 
-// Video is availabe at
+// Video is availabe at Amazon,Youtube DVD
 
-//write a program to print hello world.
+// writing a program for character constant
+
 
 main()
 {
-
-    printf("Hello World");
-
+    const Char b=’S’;
+    printf(“%c”,b);
 }

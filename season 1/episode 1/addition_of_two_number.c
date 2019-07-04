@@ -2,13 +2,16 @@
 
 //For Details explaination of the code please watch the video first and then execute the examples
 
-// Video is availabe at
+// Video is availabe at Amazon,Youtube DVD
 
-//write a program to print hello world.
+// writing a program for addition of two number
+
+
 
 main()
 {
-
-    printf("Hello World");
-
+   int a=15;
+   int b=10;
+   int c=a+b;
+   printf(“%d”,c);
 }

@@ -2,13 +2,12 @@
 
 //For Details explaination of the code please watch the video first and then execute the examples
 
-// Video is availabe at
+// Video is availabe at Amazon,Youtube DVD
 
-//write a program to print hello world.
+// writing a program for float constant (declaring a constant float)
 
 main()
 {
-
-    printf("Hello World");
-
+   const float a=99.9;
+   printf(“%f”,a);
 }

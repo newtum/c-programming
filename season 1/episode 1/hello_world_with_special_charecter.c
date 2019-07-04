@@ -4,10 +4,10 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-main() 
-{ 
+////write a program to print hello world with special characters
 
-   printf("Hello World"); 
+main()
+{
+   printf("Hello World");
    printf("\nHello World");
-
 }
