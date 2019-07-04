@@ -4,14 +4,21 @@
 
 // Video is availabe at Amazon,Youtube DVD
 
-// writing a program for addition of two number
+// writing a program accept inputs from user and do the addition.
 
 
 
 main()
 {
-   int a=15;
-   int b=10;
-   int c=a+b;
-   printf(“%d”,c);
+
+  int a;
+  int b;
+  printf(“Welcome to program of Addition”);
+  printf(“Enter value for a : ”);
+  scanf("%c", &a);
+  printf(“\nEnter value for b : ”);
+  scanf("%c", &b);
+  int c=a+b;
+  printf("Result : %c", &c);
+
 }
