@@ -6,8 +6,6 @@
 
 // writing a program accept inputs from user and do the addition.
 
-
-
 main()
 {
 
