@@ -4,10 +4,16 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-// write a program to print hello world with special characters.
+// write a program print multiplication table using for loop.
 
 main()
 {
-   printf("Hello World");
-   printf("\nHello World");
+    int input, i,result;
+    printf("Enter an number: ");
+    scanf("%d",&input);
+    for(i=1; i<=10; ++i)
+    {
+        result = input * i;
+        printf("%d * %d = %d \n", input, i, result);
+    }
 }

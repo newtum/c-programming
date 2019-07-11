@@ -4,10 +4,14 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-// write a program to print hello world with special characters.
+// write a program print series of even numbers starts with 2 using while loop  .
 
 main()
 {
-   printf("Hello World");
-   printf("\nHello World");
+    int i = 2;
+    while (i < 10)
+   {
+	printf("%d ", i);
+	i=i+2;
+   }
 }

@@ -4,10 +4,18 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-// write a program to print hello world with special characters.
+// write a program print 1 to 20 use a BREAK statement inside FOR loop .
 
 main()
 {
-   printf("Hello World");
-   printf("\nHello World");
+    int i;
+     for (i=1; i<20; i++)
+   {
+      	printf("%d ", i);
+      	 if (i >=20)
+           {
+               break;
+           }
+   }
+
 }

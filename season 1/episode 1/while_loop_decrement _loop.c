@@ -4,10 +4,14 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-// write a program to print hello world with special characters.
+// write a program print 10 to 1 i.e. in reverse order using while loop (decrement loops) .
 
 main()
 {
-   printf("Hello World");
-   printf("\nHello World");
+    int i = 10;
+    while (i > 0)
+   {
+	printf("%d ", i);
+	i=i-1;
+   }
 }

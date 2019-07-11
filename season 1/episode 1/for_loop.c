@@ -4,10 +4,14 @@
 
 // Video is availabe at Amazon, YouTube DVD
 
-// write a program to print hello world with special characters.
+// write a program print 1 to 10 using for loop .
 
 main()
 {
-   printf("Hello World");
-   printf("\nHello World");
+    int i;
+     for (i=1; i<10; i++)
+   {
+      	printf("%d ", i);
+   }
+
 }
