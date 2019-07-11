@@ -9,6 +9,6 @@
 
 main()
 {
-    const Char b=’S’;
-    printf(“%c”,b);
+    const char b ='s';
+    printf("%c",b);
 }

@@ -9,5 +9,5 @@
 main()
 {
    const float a=99.9;
-   printf(“%f”,a);
+   printf("%f",a);
 }

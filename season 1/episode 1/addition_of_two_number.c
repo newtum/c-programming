@@ -9,14 +9,14 @@
 main()
 {
 
-  int a;
-  int b;
-  printf(“Welcome to program of Addition”);
-  printf(“Enter value for a : ”);
-  scanf("%c", &a);
-  printf(“\nEnter value for b : ”);
-  scanf("%c", &b);
-  int c=a+b;
-  printf("Result : %c", &c);
+  int a,b,c;
+  
+  printf("Welcome to program of Addition");
+  printf("\nEnter value for a : ");
+  scanf("%d", &a);
+  printf("\nEnter value for b : ");
+  scanf("%d", &b);
+  c=a+b;
+  printf("Result : %d",c);
 
 }

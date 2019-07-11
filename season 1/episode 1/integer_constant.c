@@ -11,6 +11,6 @@ main()
 {
 
 	const int a=100;
-	printf(“Value of a : %d”,a);
+	printf("Value of a : %d",a);
 
 }
