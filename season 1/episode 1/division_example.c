@@ -6,17 +6,18 @@
 
 // writing a program accept inputs from user and do the addition.
 
+//example which will do the division work.
+
+
+
 main()
 {
-
-  int a,b,c;
-  
-  printf("Welcome to program of Addition");
-  printf("\nEnter value for a : ");
-  scanf("%d", &a);
-  printf("\nEnter value for b : ");
-  scanf("%d", &b);
-  c=a+b;
-  printf("\n Result : %d",c);
-
+       int a, b, c;
+       printf("\nWelcome to Division Program");
+       printf("\nEnter value for a : ");
+       scanf("%d",&a);
+       printf("\nEnter value for b : ");
+       scanf("%d",&b);
+       c = a/b;
+       printf("\nDivision Result : %d",c);
 }
