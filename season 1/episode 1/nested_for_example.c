@@ -7,15 +7,17 @@
 // example of nested for .
 
 
-main()
-{
-     int i, j;
-     for (j=1; j <= 10; j++)
-        {
-            for (i=1; i<= j; i++)
-             {
-                 printf("*");
-     }
-     printf("\n");
-     }
+main() 
+{ 
+	
+	int i , j; 
+	for(i = 1 ; i <= 10 ; i++) 
+	{ 
+		for(j = 1 ; j <= i ; j++) 
+		{ 
+			printf("%d ",j); 
+		}
+	printf("\n"); 
+	} 
+	
 }
