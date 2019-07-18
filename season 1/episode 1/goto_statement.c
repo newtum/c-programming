@@ -6,7 +6,9 @@
 
 // write the program goto statement .
 
-// Explaination: A goto statement in C programming provides an unconditional jump from the 'goto' to a labeled statement in the same function. it is not a good habit to use the goto statement in C, there may be some situations where the use of the goto statement might be desirable.
+// Explaination: A goto statement in C programming provides an unconditional jump from the 'goto' to a labeled statement 
+// in the same function. it is not a good habit to use the goto statement in C, there may be some situations where the 
+// use of the goto statement might be desirable.
 
 
 main () {
