@@ -8,6 +8,6 @@
 
 main()
 {
-   const float a=99.9;
+   const float a=99.99;
    printf("%f",a);
 }

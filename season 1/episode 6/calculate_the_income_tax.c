@@ -6,16 +6,17 @@
 
 // write a program to calculate the income tax
 
+ 
 
 main()
 {
-	float income, tax_amount;
-	int age, tax_percentage;
+    float income, tax_amount;
+    int age, tax_percentage;
     char gender;
     tax_percentage=0;
     tax_amount=0;
 
-	printf("Calculate INCOME TAX");
+    printf("Calculate INCOME TAX");
     printf("\nEnter value for Income : ");
     scanf("%f",&income);
     printf("\nEnter value for Age : ");
@@ -30,10 +31,6 @@ main()
     else if(income > 200000)
     {
          tax_percentage = 30;
-    }
-    else if(income > 100000 && gender == 'f')
-    {
-        tax_percentage = 10;
     }
     else if(income > 100000 && age > 60 || gender == 'f')
     {

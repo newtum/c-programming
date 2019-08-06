@@ -9,15 +9,15 @@
 main()
 {
 	
-    float principle, rate;
-    int year; printf("Enter the principle Amount : ");
-    scanf("%f",&principle);
+    float principal, rate;
+    int year; printf("Enter the principal Amount : ");
+    scanf("%f",&principal);
     printf("Enter the Rate Of Interest : ");
     scanf("%f",&rate);
     printf("Enter duration in Years : ");
     scanf("%d",&year);
-    float SI=(principle * rate * year) / 100;
-    printf("\nprinciple amount : %f, \nRate Of Interest : %f , \nYears : %d ", principle, rate, year);
+    float SI=(principal * rate * year) / 100;
+    printf("\nprincipal amount : %f, \nRate Of Interest : %f , \nYears : %d ", principal, rate, year);
     printf("\nSimple interest : %f", SI);
 
 }
