@@ -1,4 +1,4 @@
-![Newtum](https://i1.wp.com/blog.newtum.com/wp-content/uploads/2019/06/Newtum-14-Final-Approval-Logo-SS-BG.png?fit=1804%2C454&ssl=1)
+![Newtum](https://github.com/newtum/c-programming/blob/master/season%201/assets/images/logo.png)
 # c-programming
 This Repository Contains Newtum Tutorials for Basics of C Programming
 
